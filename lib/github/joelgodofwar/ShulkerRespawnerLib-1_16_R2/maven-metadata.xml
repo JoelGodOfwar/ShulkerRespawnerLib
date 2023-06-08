@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>lib.github.joelgodofwar</groupId>
+  <artifactId>ShulkerRespawnerLib-1_16_R2</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.3-SNAPSHOT</version>
+      <version>0.0.4-SNAPSHOT</version>
+      <version>0.0.5-SNAPSHOT</version>
+      <version>0.0.7-SNAPSHOT</version>
+      <version>0.0.8-SNAPSHOT</version>
+      <version>0.0.9-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20230608045946</lastUpdated>
+  </versioning>
+</metadata>
