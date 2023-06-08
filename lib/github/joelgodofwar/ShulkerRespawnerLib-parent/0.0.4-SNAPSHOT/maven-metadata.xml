@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>lib.github.joelgodofwar</groupId>
+  <artifactId>ShulkerRespawnerLib-parent</artifactId>
+  <version>0.0.4-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20221215.025535</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <lastUpdated>20221215025535</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.4-20221215.025535-2</value>
+        <updated>20221215025535</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
