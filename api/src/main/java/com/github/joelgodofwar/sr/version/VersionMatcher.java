@@ -63,7 +63,15 @@ public class VersionMatcher {
 			case "1.18.2":
 				return "1_18_R2";
 			case "1.19":
+			case "1.19.1":
+			case "1.19.2":
 				return "1_19_R1";
+			case "1.19.3":
+				return "1_19_R2";
+			case "1.19.4":
+				return "1_19_R3";
+			case "1.20":
+				return "1_20_R1";
 			
 			}
 			return string;
