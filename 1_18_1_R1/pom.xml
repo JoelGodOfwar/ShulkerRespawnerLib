@@ -3,7 +3,7 @@
   <parent>
     <groupId>lib.github.joelgodofwar</groupId>
     <artifactId>ShulkerRespawnerLib-parent</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.9-SNAPSHOT</version>
   </parent>
   <artifactId>ShulkerRespawnerLib-1_18_1_R1</artifactId>
   
