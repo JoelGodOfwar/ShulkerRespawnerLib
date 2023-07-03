@@ -4,9 +4,8 @@
   <artifactId>ShulkerRespawnerLib-parent</artifactId>
   <versioning>
     <versions>
-      <version>0.0.9-SNAPSHOT</version>
       <version>0.1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20230702224233</lastUpdated>
+    <lastUpdated>20230703014556</lastUpdated>
   </versioning>
 </metadata>

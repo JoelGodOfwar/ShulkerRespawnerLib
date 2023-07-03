@@ -3,16 +3,16 @@
   <groupId>lib.github.joelgodofwar</groupId>
   <artifactId>ShulkerRespawnerLib-parent</artifactId>
   <versioning>
-    <lastUpdated>20230702224233</lastUpdated>
+    <lastUpdated>20230703014556</lastUpdated>
     <snapshot>
-      <timestamp>20230702.224233</timestamp>
+      <timestamp>20230703.014556</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.0-20230702.224233-1</value>
-        <updated>20230702224233</updated>
+        <value>0.1.0-20230703.014556-1</value>
+        <updated>20230703014556</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
