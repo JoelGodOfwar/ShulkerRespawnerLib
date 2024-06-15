@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>lib.github.joelgodofwar</groupId>
+  <artifactId>ShulkerRespawnerLib-MC_1_20_R2</artifactId>
+  <versioning>
+    <lastUpdated>20240615011750</lastUpdated>
+    <snapshot>
+      <timestamp>20240615.011750</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.2.0-20240615.011750-1</value>
+        <updated>20240615011750</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.2.0-20240615.011750-1</value>
+        <updated>20240615011750</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.2.0-20240615.011750-1</value>
+        <updated>20240615011750</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>remapped-obf</classifier>
+        <extension>jar</extension>
+        <value>0.2.0-20240615.011750-1</value>
+        <updated>20240615011750</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.2.0-SNAPSHOT</version>
+</metadata>
