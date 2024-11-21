@@ -3,6 +3,7 @@ package com.github.joelgodofwar.sr.version;
 import org.bukkit.Bukkit;
 
 public class VersionMatcher {
+	@SuppressWarnings("deprecation")
 	public VersionWrapper match() {
 	       final String serverVersion = MCVersion(getMCVersion());
 	       //Bukkit.getServer().getClass().getPackage().getName().split("\\.")[3].substring(1);
@@ -84,9 +85,10 @@ public class VersionMatcher {
 			case "1.21":
 			case "1.21.1":
 			case "1.21.2":
+				return "1_21_R1";
 			case "1.21.3":
 			case "1.21.4":
-				return "1_21_R1";
+				return "1_21_R2";
 			}
 			return string;
 		}

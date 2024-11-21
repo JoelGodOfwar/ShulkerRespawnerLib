@@ -3,7 +3,7 @@
   <parent>
     <groupId>lib.github.joelgodofwar</groupId>
     <artifactId>ShulkerRespawnerLib-parent</artifactId>
-    <version>0.1.9-SNAPSHOT</version>
+    <version>0.2.2-SNAPSHOT</version>
   </parent>
   <artifactId>ShulkerRespawnerLib</artifactId>
   <dependencies>
@@ -88,6 +88,18 @@
 	<dependency>
 	    <groupId>lib.github.joelgodofwar</groupId>
 	    <artifactId>ShulkerRespawnerLib-MC_1_20_R4</artifactId>
+	    <version>${project.parent.version}</version>
+	    <scope>compile</scope>
+	</dependency>
+	<dependency>
+	    <groupId>lib.github.joelgodofwar</groupId>
+	    <artifactId>ShulkerRespawnerLib-MC_1_21_R1</artifactId>
+	    <version>${project.parent.version}</version>
+	    <scope>compile</scope>
+	</dependency>
+	<dependency>
+	    <groupId>lib.github.joelgodofwar</groupId>
+	    <artifactId>ShulkerRespawnerLib-MC_1_21_R2</artifactId>
 	    <version>${project.parent.version}</version>
 	    <scope>compile</scope>
 	</dependency>
