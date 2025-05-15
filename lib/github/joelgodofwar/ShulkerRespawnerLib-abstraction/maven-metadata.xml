@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>lib.github.joelgodofwar</groupId>
+  <artifactId>ShulkerRespawnerLib-abstraction</artifactId>
+  <versioning>
+    <versions>
+      <version>0.2.4-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20250515203207</lastUpdated>
+  </versioning>
+</metadata>
