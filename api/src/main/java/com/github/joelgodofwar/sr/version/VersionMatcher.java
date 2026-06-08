@@ -89,6 +89,10 @@ public class VersionMatcher {
 			case "1.21.3":
 			case "1.21.4":
 				return "1_21_R2";
+			case "26.1":
+			case "26.1.1":
+			case "26.1.2":
+				return "26_1_R1";
 			}
 			return string;
 		}
