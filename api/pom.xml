@@ -103,5 +103,11 @@
 	    <version>${project.parent.version}</version>
 	    <scope>compile</scope>
 	</dependency>
+	<dependency>
+		<groupId>lib.github.joelgodofwar</groupId>
+		<artifactId>ShulkerRespawnerLib-MC_26_1_R1</artifactId>
+		<version>${project.parent.version}</version>
+		<scope>compile</scope>
+	</dependency>
   </dependencies>
 </project>

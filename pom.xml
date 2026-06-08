@@ -47,6 +47,7 @@
     <module>MC_1_20_R4</module>
     <module>MC_1_21_R1</module>
     <module>MC_1_21_R2</module>
+    <module>MC_26_1_R1</module>
     <module>abstraction</module>
     <module>api</module>
   </modules>
