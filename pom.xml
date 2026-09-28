@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>lib.github.joelgodofwar</groupId>
   <artifactId>ShulkerRespawnerLib-parent</artifactId>
-  <version>0.3.8</version>
+  <version>0.3.9</version>
   <name>ShulkerRespawnerLib</name>
   <description>A Library for ShulkerRespawner.</description>
   <packaging>pom</packaging>
