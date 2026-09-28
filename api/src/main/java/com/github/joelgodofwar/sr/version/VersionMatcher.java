@@ -3,6 +3,7 @@ package com.github.joelgodofwar.sr.version;
 import org.bukkit.Bukkit;
 
 public class VersionMatcher {
+	@SuppressWarnings("deprecation")
 	public VersionWrapper match() {
 	       final String serverVersion = MCVersion(getMCVersion());
 	       //Bukkit.getServer().getClass().getPackage().getName().split("\\.")[3].substring(1);
@@ -84,9 +85,34 @@ public class VersionMatcher {
 			case "1.21":
 			case "1.21.1":
 			case "1.21.2":
-			case "1.21.3":
-			case "1.21.4":
 				return "1_21_R1";
+			case "1.21.3":
+				return "1_21_R2";
+			case "1.21.4":
+				return "1_21_R3";
+			case "1.21.5":
+				return "1_21_R4";
+			case "1.21.6":
+			case "1.21.7":
+			case "1.21.8":
+			case "1.21.9":
+				return "1_21_R5";
+			case "1.21.10":
+				return "1_21_R6";
+			case "1.21.11":
+				return "1_21_R7";
+			case "26.1":
+			case "26.1.1":
+			case "26.1.2":
+				return "26_1_R1";
+			case "26.2":
+			case "26.2.1":
+			case "26.2.2":
+				return "26_2_R1";
+			case "26.3":
+			case "26.3.1":
+			case "26.3.2":
+				return "26_3_R1";
 			}
 			return string;
 		}

@@ -1,305 +1,188 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    
   <modelVersion>4.0.0</modelVersion>
-    
   <groupId>lib.github.joelgodofwar</groupId>
-    
   <artifactId>ShulkerRespawnerLib-parent</artifactId>
-    
-  <version>0.2.0-SNAPSHOT</version>
-    
+  <version>0.3.8</version>
   <name>ShulkerRespawnerLib</name>
-    
   <description>A Library for ShulkerRespawner.</description>
-    
   <packaging>pom</packaging>
-    
   <properties>
-        
-    <currentVersion>0.2.0-SNAPSHOT</currentVersion>
-        
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        
-    <repository-owner>JoelGodOfwar</repository-owner>
-    	
+    <repository-owner>JoelGodOfwar</repository-owner>	
     <repository-name>ShulkerRespawnerLib</repository-name>
-        
     <github.global.server>github</github.global.server>
-      
   </properties>
-    
   <distributionManagement>
-     
-    
     <repository>
-              
       <id>github</id>
-              
       <name>GitHub JoelGodOfwar Apache Maven Packages</name>
-       
-        
       <url>https://github.com/JoelGodOfwar/ShulkerRespawnerLib</url>
-       
-    
     </repository>
-        
     <snapshotRepository>
-              
       <id>github-snapshot</id>
-       
-        
       <name>GitHub JoelGodOfwar -SNAPSHOT Apache Maven Packages</name>
-       
-        
       <url>https://github.com/JoelGodOfwar/ShulkerRespawnerLib</url>
-       
-    
     </snapshotRepository>
-      
   </distributionManagement>
-    
   <scm>
-        
     <url>https://github.com/JoelGodOfwar/ShulkerRespawnerLib</url>
-        
     <connection>scm:git:git@github.com:JoelGodOfwar/ShulkerRespawnerLib.git</connection>
-        
     <developerConnection>scm:git:https://github.com/JoelGodOfwar/ShulkerRespawnerLib.git</developerConnection>
-        
     <tag>#{project.${project.version}</tag>
-      
   </scm>
-    
   <modules>
-        
-    <module>1_17_R1</module>
-        
-    <module>1_17_1_R1</module>
-        
-    <module>1_18_R1</module>
-        
-    <module>1_18_1_R1</module>
-        
-    <module>1_18_R2</module>
-        
-    <module>1_19_R1</module>
-        
-    <module>1_19_R2</module>
-        
-    <module>1_19_R3</module>
-        
-    <module>MC_1_20_R1</module>
-        
-    <module>MC_1_20_R2</module>
-    
-    <module>MC_1_20_R3</module>
-    
-    <module>MC_1_20_R4</module>
-        
-    <module>MC_1_21_R1</module>
-        
     <module>abstraction</module>
-        
     <module>api</module>
+    <module>1_17_R1</module>
+    <module>1_17_1_R1</module>
+    <module>1_18_R1</module>
+    <module>1_18_1_R1</module>
+    <module>1_18_R2</module>
+    <module>1_19_R1</module>
+    <module>1_19_R2</module>
+    <module>1_19_R3</module>
+    <module>MC_1_20_R1</module>
+    <module>MC_1_20_R2</module>
+    <module>MC_1_20_R3</module>
+    <module>MC_1_20_R4</module>
+    <module>MC_1_21_R1</module>
+    <module>MC_1_21_R2</module>
+    <module>MC_1_21_R3</module>
+    <module>MC_1_21_R4</module>
+    <module>MC_1_21_R5</module>
+    <module>MC_1_21_R6</module>
+    <module>MC_1_21_R7</module>
+    <module>MC_26_1_R1</module>
+    <module>MC_26_2_R1</module>
+    <module>MC_26_3_R1</module>
   </modules>
-    
   <dependencies>
-        
-    <dependency>
-      	  
-      <groupId>org.spigotmc</groupId>
-      	  
-      <artifactId>spigot</artifactId>
-      	  
-      <version>1.13.2-R0.1-SNAPSHOT</version>
-      	  
-      <scope>provided</scope>
-      	
+    <dependency>	  
+      <groupId>org.spigotmc</groupId>	  
+      <artifactId>spigot</artifactId>	  
+      <version>1.13.2-R0.1-SNAPSHOT</version>	  
+      <scope>provided</scope>	
     </dependency>
-      
+    <dependency>
+      <groupId>lib.github.joelgodofwar</groupId>
+      <artifactId>core-utils</artifactId>
+      <version>RELEASE</version>
+      <scope>provided</scope>
+    </dependency>
   </dependencies>
-    
   <build>
-          
     <plugins>
-              
       <plugin>
-                  
         <groupId>org.apache.maven.plugins</groupId>
-                  
         <artifactId>maven-compiler-plugin</artifactId>
-                  
         <version>3.13.0</version>
-                  
         <configuration>
-                      
           <source>16</source>
-                      
           <target>17</target>
-                    
         </configuration>
-                
       </plugin>
-              
       <plugin>
-                  
         <groupId>org.apache.maven.plugins</groupId>
-                  
         <artifactId>maven-release-plugin</artifactId>
-                  
-        <version>3.0.1</version>
-        	        
-        <configuration>
-          	            
-          <scmCommentPrefix>[ci skip]</scmCommentPrefix>
-          	            
-          <tagNameFormat>@{project.version}</tagNameFormat>
-          	            
-          <checkModificationExcludes>
-            			        
-            <checkModificationExclude>pom.xml</checkModificationExclude>
-            			    
-          </checkModificationExcludes>
-          	        
+        <version>3.0.1</version>	        
+        <configuration>	            
+          <scmCommentPrefix>[ci skip]</scmCommentPrefix>	            
+          <tagNameFormat>@{project.version}</tagNameFormat>	            
+          <checkModificationExcludes>			        
+            <checkModificationExclude>pom.xml</checkModificationExclude>			    
+          </checkModificationExcludes>	        
         </configuration>
-                
-      </plugin>
-      		  
-      <plugin>
-        		    
-        <artifactId>maven-deploy-plugin</artifactId>
-        		    
-        <version>3.1.1</version>
-        		    
-        <configuration>
-          		        
+      </plugin>		  
+      <plugin>		    
+        <artifactId>maven-deploy-plugin</artifactId>		    
+        <version>3.1.1</version>		    
+        <configuration>		        
           <altDeploymentRepository>
 		            internal.repo::default::file://${project.build.directory}/mvn-artifact/
-		        </altDeploymentRepository>
-          		    
-        </configuration>
-        		  
+		        </altDeploymentRepository>		    
+        </configuration>		  
+      </plugin>		  
+      <plugin>		    
+        <groupId>org.apache.maven.plugins</groupId>		    
+        <artifactId>maven-source-plugin</artifactId>		    
+        <version>3.3.0</version>		    
+        <executions>		        
+          <execution>		            
+            <id>attach-sources</id>		                
+            <goals>		                    
+              <goal>jar</goal>		                
+            </goals>		        
+          </execution>		    
+        </executions>		
       </plugin>
-      		  
       <plugin>
-        		    
         <groupId>org.apache.maven.plugins</groupId>
-        		    
-        <artifactId>maven-source-plugin</artifactId>
-        		    
-        <version>3.3.0</version>
-        		    
-        <executions>
-          		        
-          <execution>
-            		            
-            <id>attach-sources</id>
-            		                
-            <goals>
-              		                    
-              <goal>jar</goal>
-              		                
-            </goals>
-            		        
-          </execution>
-          		    
-        </executions>
-        		
-      </plugin>
-              
-      <plugin>
-                  
-        <groupId>org.apache.maven.plugins</groupId>
-                  
         <artifactId>maven-shade-plugin</artifactId>
-                  
         <version>3.4.1</version>
-                  
         <executions>
-                      
           <execution>
-                          
             <phase>package</phase>
-                          
             <goals>
-                              
               <goal>shade</goal>
-                            
             </goals>
-                        
+            <configuration>
+              <!-- Exclude CoreUtils so it doesn't get bundled into SRL -->
+              <artifactSet>
+                <excludes>
+                  <exclude>lib.github.joelgodofwar:core-utils</exclude>
+                  <!-- You can also exclude the group if you want -->
+                  <!-- <exclude>lib.github.joelgodofwar:*</exclude> but that might be too broad -->
+                </excludes>
+              </artifactSet>
+
+              <!-- Optional but recommended: minimize the jar and clean signatures -->
+              <filters>
+                <filter>
+                  <artifact>*:*</artifact>
+                  <excludes>
+                    <exclude>META-INF/*.SF</exclude>
+                    <exclude>META-INF/*.DSA</exclude>
+                    <exclude>META-INF/*.RSA</exclude>
+                  </excludes>
+                </filter>
+              </filters>
+            </configuration>
           </execution>
-                    
         </executions>
-                
       </plugin>
-              
       <plugin>
-                  
         <groupId>org.apache.maven.plugins</groupId>
-                  
         <artifactId>maven-javadoc-plugin</artifactId>
-                  
         <version>3.2.0</version>
-                
       </plugin>
-              
       <plugin>
-        		    
         <groupId>com.github.github</groupId>
-        		    
         <artifactId>site-maven-plugin</artifactId>
-        		    
         <version>0.12</version>
-        		    
         <configuration>
-          		        
           <message>Maven artifacts for ${project.version}</message>
-          		        
           <noJekyll>true</noJekyll>
-          		        
           <outputDirectory>${project.build.directory}/mvn-artifact/</outputDirectory>
-          		        
           <branch>refs/tags/${project.version}</branch>
-          		        
           <includes>
-            		            
             <include>**/*</include>
-            		        
           </includes>
-          		        
           <merge>true</merge>
-          		        
           <repositoryName>ShulkerRespawnerLib</repositoryName>
-          		        
           <repositoryOwner>JoelGodOfwar</repositoryOwner>
-          		        
-          <branch-name>snapshots</branch-name>
-          		        
-          <server>github</server>
-          		    
-        </configuration>
-        		    
-        <executions>
-          		        
-          <execution>
-            		            
-            <goals>
-              		                
-              <goal>site</goal>
-              		            
+          <branch>refs/heads/snapshots</branch>
+          <server>github</server>          		    
+        </configuration>        		    
+        <executions>          		        
+          <execution>            		            
+            <goals>              		                
+              <goal>site</goal>              		            
             </goals>
-            		            
             <phase>deploy</phase>
-            		        
           </execution>
-          		    
         </executions>
-        		
       </plugin>
-            
     </plugins>
-      
   </build>
-  
 </project>

@@ -3,7 +3,7 @@
   <parent>
     <groupId>lib.github.joelgodofwar</groupId>
     <artifactId>ShulkerRespawnerLib-parent</artifactId>
-    <version>0.2.0-SNAPSHOT</version>
+    <version>0.3.8</version>
   </parent>
   <artifactId>ShulkerRespawnerLib</artifactId>
   <dependencies>
@@ -91,5 +91,65 @@
 	    <version>${project.parent.version}</version>
 	    <scope>compile</scope>
 	</dependency>
+	<dependency>
+	    <groupId>lib.github.joelgodofwar</groupId>
+	    <artifactId>ShulkerRespawnerLib-MC_1_21_R1</artifactId>
+	    <version>${project.parent.version}</version>
+	    <scope>compile</scope>
+	</dependency>
+	<dependency>
+	    <groupId>lib.github.joelgodofwar</groupId>
+	    <artifactId>ShulkerRespawnerLib-MC_1_21_R2</artifactId>
+	    <version>${project.parent.version}</version>
+	    <scope>compile</scope>
+	</dependency>
+	<dependency>
+	    <groupId>lib.github.joelgodofwar</groupId>
+	    <artifactId>ShulkerRespawnerLib-MC_1_21_R3</artifactId>
+	    <version>${project.parent.version}</version>
+	    <scope>compile</scope>
+	</dependency>
+	<dependency>
+	    <groupId>lib.github.joelgodofwar</groupId>
+	    <artifactId>ShulkerRespawnerLib-MC_1_21_R4</artifactId>
+	    <version>${project.parent.version}</version>
+	    <scope>compile</scope>
+	</dependency>
+	<dependency>
+	    <groupId>lib.github.joelgodofwar</groupId>
+	    <artifactId>ShulkerRespawnerLib-MC_1_21_R5</artifactId>
+	    <version>${project.parent.version}</version>
+	    <scope>compile</scope>
+	</dependency>
+	  <dependency>
+		  <groupId>lib.github.joelgodofwar</groupId>
+		  <artifactId>ShulkerRespawnerLib-MC_1_21_R6</artifactId>
+		  <version>${project.parent.version}</version>
+		  <scope>compile</scope>
+	  </dependency>
+	  <dependency>
+		  <groupId>lib.github.joelgodofwar</groupId>
+		  <artifactId>ShulkerRespawnerLib-MC_1_21_R7</artifactId>
+		  <version>${project.parent.version}</version>
+		  <scope>compile</scope>
+	  </dependency>
+	  <dependency>
+		  <groupId>lib.github.joelgodofwar</groupId>
+		  <artifactId>ShulkerRespawnerLib-MC_26_1_R1</artifactId>
+		  <version>${project.parent.version}</version>
+		  <scope>compile</scope>
+	  </dependency>
+	  <dependency>
+		  <groupId>lib.github.joelgodofwar</groupId>
+		  <artifactId>ShulkerRespawnerLib-MC_26_2_R1</artifactId>
+		  <version>${project.parent.version}</version>
+		  <scope>compile</scope>
+	  </dependency>
+	  <dependency>
+		  <groupId>lib.github.joelgodofwar</groupId>
+		  <artifactId>ShulkerRespawnerLib-MC_26_3_R1</artifactId>
+		  <version>${project.parent.version}</version>
+		  <scope>compile</scope>
+	  </dependency>
   </dependencies>
 </project>
